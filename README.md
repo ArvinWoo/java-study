@@ -1,3 +1,29 @@
+### 项目git
+
+克隆项目[Git地址](https://github.com/ArvinWoo/java-study.git) 
+
+### 包相关性
+
+- arithmetic        算法
+- basics            基础
+- bigdata           大数据
+- code              源码相关
+- commons           指第三方的一些工具测试类
+- design            设计模式
+- elasticsearch     ES搜索
+- jdk8              jdk8特性
+- mq                mq
+- nio               nio
+- other             其他测试代码
+- pojo              pojo类
+- question          面试题
+- redis             redis
+- sql               数据库相关
+- thread            线程
+- utils             常用的工具类封装
+
+<hr>
+
 <div align="center">
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://github.com/hhyo/archery/blob/master/LICENSE)
