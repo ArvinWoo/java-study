@@ -56,13 +56,13 @@ public class LombokTest {
 
 	public static void main(String[] args) {
 		LombokTest student = new LombokTest();
-		LombokTest student2 = new LombokTest(2, "zhangsan", 3);
-		student.setId(1);
-		student.setName("xuwujing");
-		student.setClassId(1);
-		log.info("id:{},姓名:{},班级:{}", student.getId(), student.getName(), student.getClassId());
-		log.info("学生信息:{}", student2.toString());
-		
+//		LombokTest student2 = new LombokTest(2, "zhangsan", 3);
+//		student.setId(1);
+//		student.setName("xuwujing");
+//		student.setClassId(1);
+//		log.info("id:{},姓名:{},班级:{}", student.getId(), student.getName(), student.getClassId());
+//		log.info("学生信息:{}", student2.toString());
+
 		String name="xuwujing";
 		String name2=null;
 				

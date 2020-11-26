@@ -41,7 +41,8 @@ public class TimerTest {
     public static void timer1(){
     	  final long timeInterval = 1000;  
           Runnable runnable = new Runnable() {  
-              public void run() {  
+              @Override
+              public void run() {
                   while (true) {  
                       // ------- code for task to run  
                       System.out.println("timer1 Hello !!");  
@@ -75,7 +76,7 @@ public class TimerTest {
          long delay = 0;  
          long intevalPeriod = 1 * 1000;  
          // schedules the task to be run in an interval  
-         timer.scheduleAtFixedRate(task, delay, intevalPeriod);  
+         timer.scheduleAtFixedRate(task, delay, intevalPeriod);
     }
     
     /** 
